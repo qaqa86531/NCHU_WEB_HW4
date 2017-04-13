@@ -45,7 +45,7 @@ $(document).ready(function(){
         $("#img1").fadeTo("slow" , 0.5);
     });
 
-    $("video").hover(function(){
+    $("iframe").hover(function(){
         $("#lyrics").fadeIn(1000);
     });
 
