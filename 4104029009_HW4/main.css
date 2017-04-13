@@ -1,0 +1,72 @@
+body {
+    width="device-width";
+    background-color: black;
+}
+
+marquee{
+  width: 30%;
+  cursor: pointer;
+}
+
+table{
+  text-align: center;
+}
+
+.cc{
+  border-style:outset;
+  padding: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  color: #EE7700;
+  cursor: pointer;
+}
+
+#pp1,#pp2,#pp3{
+  display: none;
+}
+
+/* active樣式是給目前所選取頁籤用的 */
+.active {
+    border-bottom: 1px solid #7D7D7D;
+    width: 70;
+    cursor: pointer;
+}
+
+/* inactive樣式是給未選取頁籤用的 */
+.inactive {
+    border: none;
+    width: 70;
+    cursor: pointer;
+}
+
+#d1,#d2,#d3,#d4{
+  text-align: center;
+}
+
+#album1{
+  left: 100px;
+  position: absolute;
+}
+
+#album2{
+  left: 550px;
+  position: absolute;
+}
+
+#album3{
+  left: 1000px;
+  position: absolute;
+}
+
+.hide{
+  display: none;
+}
+
+ol{
+  text-align: justify;
+}
+
+img{
+  width: 200px;
+  cursor: pointer;
+}
