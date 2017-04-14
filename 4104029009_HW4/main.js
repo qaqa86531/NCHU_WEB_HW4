@@ -1,55 +1,63 @@
-$(document).ready(function(){
-  $("marquee").click(function(){
-          $("#mainimg").stop(true,true).slideToggle();
-  });
+$(document).ready(function() {
+    $("marquee").click(function() {
+        $("#mainimg").stop(true, true).slideToggle();
+    });
 
 
-  $("#p1").click(function(){
-      $("#pp2").slideUp();
-      $("#pp3").slideUp();
-      $("#pp1").slideDown();
-  });
-  $("#p2").click(function(){
-      $("#pp1").slideUp();
-      $("#pp3").slideUp();
-      $("#pp2").slideDown();
-  });
-  $("#p3").click(function(){
-      $("#pp2").slideUp();
-      $("#pp1").slideUp();
-      $("#pp3").slideDown();
-  });
+    $("#p1").click(function() {
+        $("#pp2").slideUp();
+        $("#pp3").slideUp();
+        $("#pp1").slideDown();
+    });
+    $("#p2").click(function() {
+        $("#pp1").slideUp();
+        $("#pp3").slideUp();
+        $("#pp2").slideDown();
+    });
+    $("#p3").click(function() {
+        $("#pp2").slideUp();
+        $("#pp1").slideUp();
+        $("#pp3").slideDown();
+    });
 
-    $("#img1").click(function(){
+    $("#iiimg").click(function() {
+        $("#iiimgp").fadeToggle();
+    });
+
+    $("#buttonmore").click(function() {
+        $(".hideimg").toggle("slow");
+    });
+
+    $("#img1").click(function() {
         $("#ol1").show();
         $("#ol2").hide();
         $("#ol3").hide();
         $("#img1").fadeOut();
-    		$("#img2").fadeTo("slow" , 0.5);
-        $("#img3").fadeTo("slow" , 0.5);
+        $("#img2").fadeTo("slow", 0.5);
+        $("#img3").fadeTo("slow", 0.5);
     });
-    $("#img2").click(function(){
+    $("#img2").click(function() {
         $("#ol2").show();
         $("#ol1").hide();
         $("#ol3").hide();
         $("#img2").fadeOut();
-    		$("#img1").fadeTo("slow" , 0.5);
-        $("#img3").fadeTo("slow" , 0.5);
+        $("#img1").fadeTo("slow", 0.5);
+        $("#img3").fadeTo("slow", 0.5);
     });
-    $("#img3").click(function(){
+    $("#img3").click(function() {
         $("#ol3").show();
         $("#ol1").hide();
         $("#ol2").hide();
         $("#img3").fadeOut();
-    		$("#img2").fadeTo("slow" , 0.5);
-        $("#img1").fadeTo("slow" , 0.5);
+        $("#img2").fadeTo("slow", 0.5);
+        $("#img1").fadeTo("slow", 0.5);
     });
 
-    $("iframe").hover(function(){
+    $("iframe").hover(function() {
         $("#lyrics").fadeIn(1000);
     });
 
-    $("#shining").hover(function(){
+    $("#shining").hover(function() {
         $("#shining").fadeToggle("fast");
     });
 });
