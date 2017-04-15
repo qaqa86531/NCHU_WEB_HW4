@@ -1,0 +1,67 @@
+body{
+  background-image: url(' 1.jpg ');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+td {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+a {
+    width: 100px;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    color:yellow;
+}
+
+span {
+    display: block;
+    margin-top: -40px;
+    color: yellow;
+}
+
+a:hover {
+    padding-top: 40px;
+}
+
+#a3,#b3,#c3,#d3,#e3,#f33,#g3,#h3,#i3{
+  float: left;
+  width: 20%;
+}
+#a1,#b1,#c1,#d1,#e1,#f11,#g1,#h1,#i1{
+  text-align: center;
+  float: left;
+  width: 9%;
+  cursor: pointer;
+  color: white;
+}
+
+.clear{
+  clear:both;
+}
+
+.CV{
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  display:none;
+}
+
+#a2,#a2,#b2,#c2,#d2,#e2,#f22,#g2,#h2,#i2{
+  padding-top: 40px;
+  text-align: justify;
+  width: 71%;
+  float: right;
+}
+
+#a1:hover,#b1:hover,#c1:hover,#d1:hover,#e1:hover,#f11:hover,#g1:hover,#h1:hover,#i1:hover{
+  font-size: 20px;
+      color:red;
+}
